@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T20:54:47 IST" name="OrangeHRM Suite" finished-at="2023-09-09T21:06:40 IST" duration-ms="712480">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T20:54:47 IST" name="Login Test" finished-at="2023-09-09T20:56:06 IST" duration-ms="79186">
+      <class name="excelrProj1.LoginTestFile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:54:47 IST" name="beforeMethod" finished-at="2023-09-09T20:55:12 IST" duration-ms="24868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="emptyCred()[pri:1, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:55:12 IST" name="emptyCred" finished-at="2023-09-09T20:55:24 IST" duration-ms="12327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCred -->
+        <test-method signature="invalidPassword()[pri:2, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:55:24 IST" name="invalidPassword" finished-at="2023-09-09T20:55:37 IST" duration-ms="12556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method signature="invalidCred()[pri:3, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:55:37 IST" name="invalidCred" finished-at="2023-09-09T20:55:51 IST" duration-ms="14586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCred -->
+        <test-method signature="validCred()[pri:4, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:55:51 IST" name="validCred" finished-at="2023-09-09T20:56:06 IST" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCred -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:excelrProj1.LoginTestFile@614ca7df]" started-at="2023-09-09T20:56:06 IST" name="afterMethod" finished-at="2023-09-09T20:56:06 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- excelrProj1.LoginTestFile -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-09-09T20:56:06 IST" name="Add Employee Personal Test" finished-at="2023-09-09T21:02:49 IST" duration-ms="402759">
+      <class name="excelrProj1.AddEmp">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:56:06 IST" name="beforeClass" finished-at="2023-09-09T20:56:56 IST" duration-ms="49812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="addEmpWithoutCreateLogin()[pri:1, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:56:56 IST" name="addEmpWithoutCreateLogin" finished-at="2023-09-09T20:57:20 IST" duration-ms="24032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpWithoutCreateLogin -->
+        <test-method signature="addPersonalDetails()[pri:2, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:57:20 IST" name="addPersonalDetails" finished-at="2023-09-09T20:58:14 IST" duration-ms="54219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPersonalDetails -->
+        <test-method signature="addAttachment1()[pri:3, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:58:14 IST" name="addAttachment1" finished-at="2023-09-09T20:58:43 IST" duration-ms="28692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment1 -->
+        <test-method signature="addAttachment2()[pri:4, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:58:43 IST" name="addAttachment2" finished-at="2023-09-09T20:59:16 IST" duration-ms="33411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment2 -->
+        <test-method signature="downloadAttachment()[pri:5, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:59:16 IST" name="downloadAttachment" finished-at="2023-09-09T20:59:47 IST" duration-ms="30202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAttachment -->
+        <test-method signature="editAttachment()[pri:6, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T20:59:47 IST" name="editAttachment" finished-at="2023-09-09T21:00:38 IST" duration-ms="51405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAttachment -->
+        <test-method signature="deleteAttachment()[pri:7, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T21:00:38 IST" name="deleteAttachment" finished-at="2023-09-09T21:01:03 IST" duration-ms="25224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAttachment -->
+        <test-method signature="deleteAllAttachment()[pri:8, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T21:01:03 IST" name="deleteAllAttachment" finished-at="2023-09-09T21:01:34 IST" duration-ms="30265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllAttachment -->
+        <test-method signature="addEmpWithCreateLogin()[pri:9, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T21:01:34 IST" name="addEmpWithCreateLogin" finished-at="2023-09-09T21:02:49 IST" duration-ms="75271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpWithCreateLogin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:excelrProj1.AddEmp@2d710f1a]" started-at="2023-09-09T21:02:49 IST" name="afterClass" finished-at="2023-09-09T21:02:49 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- excelrProj1.AddEmp -->
+    </test> <!-- Add Employee Personal Test -->
+    <test started-at="2023-09-09T21:02:49 IST" name="Immigration Test" finished-at="2023-09-09T21:05:31 IST" duration-ms="162198">
+      <class name="excelrProj1.AddContactDetails">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:02:49 IST" name="beforeClass" finished-at="2023-09-09T21:03:48 IST" duration-ms="58499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="addEmpWithoutCreateLogin()[pri:1, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:03:48 IST" name="addEmpWithoutCreateLogin" finished-at="2023-09-09T21:04:06 IST" duration-ms="18877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpWithoutCreateLogin -->
+        <test-method signature="addContactDetails()[pri:2, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:04:06 IST" name="addContactDetails" finished-at="2023-09-09T21:05:04 IST" duration-ms="57798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContactDetails -->
+        <test-method signature="addAttachment1()[pri:3, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:05:04 IST" name="addAttachment1" finished-at="2023-09-09T21:05:18 IST" duration-ms="13447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment1 -->
+        <test-method signature="addAttachment2()[pri:4, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:05:18 IST" name="addAttachment2" finished-at="2023-09-09T21:05:31 IST" duration-ms="13372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:excelrProj1.AddContactDetails@b9b00e0]" started-at="2023-09-09T21:05:31 IST" name="afterClass" finished-at="2023-09-09T21:05:31 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- excelrProj1.AddContactDetails -->
+    </test> <!-- Immigration Test -->
+    <test started-at="2023-09-09T21:05:31 IST" name="Job Test" finished-at="2023-09-09T21:06:40 IST" duration-ms="68229">
+      <class name="excelrProj1.ProfileImage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:excelrProj1.ProfileImage@783a467b]" started-at="2023-09-09T21:05:31 IST" name="beforeClass" finished-at="2023-09-09T21:06:18 IST" duration-ms="46680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="uploadJpgImg()[pri:1, instance:excelrProj1.ProfileImage@783a467b]" started-at="2023-09-09T21:06:18 IST" name="uploadJpgImg" finished-at="2023-09-09T21:06:25 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadJpgImg -->
+        <test-method signature="uploadPNGImg()[pri:2, instance:excelrProj1.ProfileImage@783a467b]" started-at="2023-09-09T21:06:25 IST" name="uploadPNGImg" finished-at="2023-09-09T21:06:32 IST" duration-ms="7127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPNGImg -->
+        <test-method signature="uploadGIFImg()[pri:3, instance:excelrProj1.ProfileImage@783a467b]" started-at="2023-09-09T21:06:32 IST" name="uploadGIFImg" finished-at="2023-09-09T21:06:39 IST" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadGIFImg -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:excelrProj1.ProfileImage@783a467b]" started-at="2023-09-09T21:06:39 IST" name="afterClass" finished-at="2023-09-09T21:06:40 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- excelrProj1.ProfileImage -->
+    </test> <!-- Job Test -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>

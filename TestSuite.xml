@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Suite" preserve-order="true">
+  <test name="Login Test">
+    <classes>
+      <class name="excelrProj1.LoginTestFile"/>
+    </classes>
+  </test> <!-- Login Test -->
+  <test name="Add Employee Personal Test">
+    <classes>
+      <class name="excelrProj1.AddEmp"/>
+    </classes>
+  </test> <!-- Add Employee Contact Details Test -->
+  <test name="Immigration Test">
+    <classes>
+      <class name="excelrProj1.AddContactDetails"/>
+    </classes>
+  </test> <!-- Profile Image upload Test -->
+  <test name="Job Test">
+    <classes>
+      <class name="excelrProj1.ProfileImage"/>
+    </classes>
+  </test> <!-- Job Test -->
+</suite> <!-- OrangeHRM Suite -->
